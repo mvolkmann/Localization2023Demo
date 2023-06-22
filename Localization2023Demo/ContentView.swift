@@ -1,24 +1,26 @@
-//
-//  ContentView.swift
-//  Localization2023Demo
-//
-//  Created by Mark Volkmann on 6/22/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
             Text("Hello, world!")
+            Text("Dinner time")
         }
         .padding()
     }
 }
 
-#Preview {
+#Preview("English") {
     ContentView()
+        .environment(\.locale, .init(identifier: "en"))
+}
+
+#Preview("Spanish") {
+    ContentView()
+        .environment(\.locale, .init(identifier: "es"))
+}
+
+#Preview("French") {
+    ContentView()
+        .environment(\.locale, .init(identifier: "fr"))
 }

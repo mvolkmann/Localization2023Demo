@@ -11,6 +11,7 @@
 		1A649DE72A44ED5B0086BD08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A649DE62A44ED5B0086BD08 /* ContentView.swift */; };
 		1A649DE92A44ED5D0086BD08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A649DE82A44ED5D0086BD08 /* Assets.xcassets */; };
 		1A649DEC2A44ED5D0086BD08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A649DEB2A44ED5D0086BD08 /* Preview Assets.xcassets */; };
+		1A649DF32A44F4A40086BD08 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1A649DF22A44F4A40086BD08 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1A649DE62A44ED5B0086BD08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1A649DE82A44ED5D0086BD08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A649DEB2A44ED5D0086BD08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A649DF22A44F4A40086BD08 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1A649DE42A44ED5B0086BD08 /* Localization2023DemoApp.swift */,
 				1A649DE62A44ED5B0086BD08 /* ContentView.swift */,
+				1A649DF22A44F4A40086BD08 /* Localizable.xcstrings */,
 				1A649DE82A44ED5D0086BD08 /* Assets.xcassets */,
 				1A649DEA2A44ED5D0086BD08 /* Preview Content */,
 			);
@@ -109,6 +112,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				es,
 			);
 			mainGroup = 1A649DD82A44ED5B0086BD08;
 			productRefGroup = 1A649DE22A44ED5B0086BD08 /* Products */;
@@ -127,6 +132,7 @@
 			files = (
 				1A649DEC2A44ED5D0086BD08 /* Preview Assets.xcassets in Resources */,
 				1A649DE92A44ED5D0086BD08 /* Assets.xcassets in Resources */,
+				1A649DF32A44F4A40086BD08 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +210,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -260,6 +267,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

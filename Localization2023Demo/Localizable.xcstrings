@@ -163,7 +163,7 @@
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "El %#@dogs@ ladraron al %#@squirrels@."
+            "value" : "%#@dogs@ ladraron al %#@squirrels@."
           },
           "substitutions" : {
             "dogs" : {

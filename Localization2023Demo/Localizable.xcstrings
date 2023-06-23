@@ -1,18 +1,18 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "Dinner time" : {
+    "Dog Count" : {
       "localizations" : {
         "es" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "hora de la cena"
+            "state" : "translated",
+            "value" : "Conteo de Perros"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "l'heure du dîner"
+            "value" : "Nombre de Chiens"
           }
         }
       }
@@ -29,6 +29,132 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bonjour le monde!"
+          }
+        }
+      }
+    },
+    "Squirrel Count" : {
+      "localizations" : {
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conteo de Ardillas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nombre d'écureuils"
+          }
+        }
+      }
+    },
+    "Tap the button to win big!" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "device" : {
+              "mac" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Click the button to win big!"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : "Tap the button to win big!"
+                }
+              }
+            }
+          }
+        },
+        "es" : {
+          "variations" : {
+            "device" : {
+              "mac" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "¡Haz clic en el botón para ganar a lo grande!"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "¡Toca el botón para ganar a lo grande!"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "device" : {
+              "mac" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Cliquez sur le bouton pour gagner gros !"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Appuyez sur le bouton pour gagner gros !"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "The %lld dogs barked at the %lld squirrels." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The %#@dogs@ barked at the %#@squirrels@."
+          },
+          "substitutions" : {
+            "dogs" : {
+              "argNum" : 1,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%lld dog"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "%llddogs"
+                    }
+                  }
+                }
+              }
+            },
+            "squirrels" : {
+              "argNum" : 2,
+              "formatSpecifier" : "lld",
+              "variations" : {
+                "plural" : {
+                  "one" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "squirrel"
+                    }
+                  },
+                  "other" : {
+                    "stringUnit" : {
+                      "state" : "translated",
+                      "value" : "squirrels"
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }

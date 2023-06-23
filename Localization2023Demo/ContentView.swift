@@ -1,10 +1,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var dogCount = 1
+    @State private var squirrelCount = 1
+
     var body: some View {
         VStack {
             Text("Hello, world!")
-            Text("Dinner time")
+            Text("Tap the button to win big!")
+            Stepper("Dog Count", value: $dogCount)
+            Stepper("Squirrel Count", value: $squirrelCount)
+            Text(
+                String(
+                    localized: "The \(dogCount) dogs barked at the \(squirrelCount) squirrels."
+                )
+            )
         }
         .padding()
     }

@@ -8,8 +8,14 @@ struct ContentView: View {
         VStack {
             Text("Hello, world!")
             Text("Tap the button to win big!")
-            Stepper("Dog Count", value: $dogCount)
-            Stepper("Squirrel Count", value: $squirrelCount)
+            HStack {
+                Stepper("Dog Count", value: $dogCount)
+                Text("\(dogCount)")
+            }
+            HStack {
+                Stepper("Squirrel Count", value: $squirrelCount)
+                Text("\(squirrelCount)")
+            }
             Text(
                 String(
                     localized: "The \(dogCount) dogs barked at the \(squirrelCount) squirrels."
